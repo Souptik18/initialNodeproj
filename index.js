@@ -109,7 +109,7 @@ app.get('/souptik', (req, res) => {
   res.send('Hello Souptik!')
 })
 
-app.get("/apiData", (res, req) => {
+app.get("/apiData", (req, res) => {
   res.json(data)
 })
 
